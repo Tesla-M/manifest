@@ -14,7 +14,7 @@ which hardware base your phone is working.
 To initialize your local repository using the AOSPB trees, use this command:
 
 
-	repo init -u git://github.com/AOSPB/manifest.git -b mm6.0
+	repo init -u git://github.com/TheRingMaster/manifest.git -b mm6.0
 
 
 
