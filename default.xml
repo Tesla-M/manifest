@@ -10,6 +10,10 @@
   <remote  name="aospb"
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
+           
+  <remote  name="trm"
+           fetch="https://github.com/TheRingMaster"
+           revision="mm6.0" />           
 
   <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
@@ -494,7 +498,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="manifest" name="manifest" remote="aospb" />
+  <project path="manifest" name="manifest" remote="trm" />
 
   <!-- New Additions for slim -->
   <project path="vendor/aospb" name="vendor_aospb" remote="trm" />
