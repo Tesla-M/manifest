@@ -497,7 +497,7 @@
   <project path="manifest" name="manifest" remote="aospb" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/aospb" name="vendor_aospb" remote="aospb" />
+  <project path="vendor/aospb" name="vendor_aospb" remote="trm" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
