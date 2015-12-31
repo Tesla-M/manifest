@@ -10,6 +10,9 @@
   <remote  name="aospb"
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
+
+  <remote name="ea"
+           fetch="https://github.com/Exousia-AOSP/" /> 
            
   <remote  name="trm"
            fetch="https://github.com/TheRingMaster"
@@ -519,5 +522,15 @@
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="external_ffmpeg" remote="aospb" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
+
+<!-- Exousia devices -->
+  <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="trm" />
+  <!-- End devices -->
+
+  <!-- Exousia kernels -->
+  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="ea" revision="marshmallow" />  
+  <!-- End kernels -->
+  
+   <project path="vendor/moto" name="proprietary_vendor_moto" remote="ea" revision="marshmallow" />
 
 </manifest>
