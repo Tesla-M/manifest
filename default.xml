@@ -22,7 +22,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="aospb" >
+  <project path="build" name="build" remote="trm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -504,7 +504,7 @@
   <project path="manifest" name="manifest" remote="trm" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/aospb" name="vendor_aospb" remote="trm" />
+  <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="6.0" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
