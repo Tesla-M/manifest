@@ -505,6 +505,7 @@
 
   <!-- New Additions for slim -->
   <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="6.0" />
+  <project path="packages/apps/SlimOTA" name="Tesla-M/packages_apps_SlimOTA" remote="github" revision="6.0" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
