@@ -11,6 +11,9 @@
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
 
+  <remote name="bb"
+          fetch="https://bitbucket.org/" />
+
   <remote  name="tm"
            fetch="https://github.com/Tesla-M"
            revision="mm6.0" />           
