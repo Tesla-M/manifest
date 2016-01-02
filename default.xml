@@ -433,7 +433,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="packages_services_Mms" remote="aospb" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="trm" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aospb" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="trm" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
