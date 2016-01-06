@@ -508,7 +508,6 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tm" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tm" /> 
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
-+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="tm" />
 
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="tm" />
