@@ -36,7 +36,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tm-n" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tm-n" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="tm-n" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tm-n" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tm" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="tm-n" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="tm-n" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="tm-n" />
