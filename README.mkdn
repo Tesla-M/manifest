@@ -69,7 +69,7 @@ Initialize Tesla-M build environment:
 Open Terminal
 ```
 mkdir tesla && cd tesla
-repo init -u git://github.com/Tesla-M/manifest.git -b mm6.0
+repo init -u git://github.com/Tesla-M/manifest.git -b mm6.0-nexus
 repo sync -j4 
 ```
 "-j is the number of jobs you want give to the download/sync, depending on your system, 4 should be fine on slower systems(i use -j16 on i7, 12Gb)"
