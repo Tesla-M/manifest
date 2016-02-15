@@ -7,6 +7,9 @@
   <remote name="bb"
           fetch="https://bitbucket.org/" />
 
+  <remote name="ea"
+           fetch="https://github.com/Exousia-AOSP/" /> 
+
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -27,9 +30,9 @@
   <project path="build" name="android_build" remote="tm-n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="art" remote="tm"  />
-  <project path="bionic" name="bionic" remote="tm" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" />
+  <project path="art" name="art" remote="tm-n"  />
+  <project path="bionic" name="bionic" remote="tm-n" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="tm-n" />
   <project path="frameworks/base" name="frameworks_base" remote="tm-n" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tm-n" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tm-n" />
@@ -50,6 +53,18 @@
   <project path="system/core" name="system_core" remote="tm-n" /> 
   <project path="vendor/tesla" name="vendor_tesla" remote="tm-n" />
   <!-- End Tesla -->
+ 
+  <!-- Tesla devices -->
+  <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="ea" revision="marshmallow" />
+  <!-- End devices -->
+
+  <!-- Tesla kernels -->
+  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="ea" revision="marshmallow" />  
+  <!-- End kernels -->
+
+  <!-- Tesla vendors -->
+  <project path="vendor/moto" name="proprietary_vendor_moto" remote="ea" revision="marshmallow" />
+  <!-- End vendors --> 
  
   <!-- CyanogenMod -->
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
