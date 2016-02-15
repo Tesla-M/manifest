@@ -24,7 +24,7 @@
 
   <!-- Tesla Repos -->
   <project path="manifest" name="manifest" remote="tm-n" />
-  <project path="build" name="android_build" remote="tm" >
+  <project path="build" name="android_build" remote="tm-n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" remote="tm"  />
