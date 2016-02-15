@@ -1,5 +1,5 @@
-Tesla M Manifest
-================
+Tesla M For Nexus Manifest
+==========================
 
 Setting up your build environment for Ubuntu/Mint
 =================================================
