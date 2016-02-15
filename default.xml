@@ -32,6 +32,7 @@
   </project>
   <project path="art" name="art" remote="tm-n"  />
   <project path="bionic" name="bionic" remote="tm-n" />
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />  
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tm-n" />
   <project path="frameworks/base" name="frameworks_base" remote="tm-n" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tm-n" />  
@@ -89,7 +90,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
