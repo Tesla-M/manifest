@@ -27,7 +27,7 @@
 
   <!-- Tesla Repos -->
   <project path="manifest" name="manifest" remote="tm-n" />
-  <project path="build" name="android_build" remote="tm-n" >
+  <project path="build" name="android_build" remote="tm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" remote="tm-n"  />
@@ -53,7 +53,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tm-n" />
   <project path="system/bt" name="system_bt" remote="tm-n" />
   <project path="system/core" name="system_core" remote="tm-n" /> 
-  <project path="vendor/tesla" name="vendor_tesla" remote="tm-n" />
+  <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
   <!-- End Tesla -->
  
    <!-- trials -->
@@ -67,18 +67,6 @@
   <project path="packages/apps/Exchange2" name="packages_apps_Exchange2" remote="ea" revision="marshmallow" />   
   <project path="system/extras" name="system_extras" remote="ea" revision="marshmallow" />   
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="ea" revision="marshmallow" />
- 
-  <!-- Tesla devices -->
-  <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="ea" revision="marshmallow" />
-  <!-- End devices -->
-
-  <!-- Tesla kernels -->
-  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="ea" revision="marshmallow" />  
-  <!-- End kernels -->
-
-  <!-- Tesla vendors -->
-  <project path="vendor/moto" name="proprietary_vendor_moto" remote="ea" revision="marshmallow" />
-  <!-- End vendors --> 
  
   <!-- CyanogenMod -->
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
