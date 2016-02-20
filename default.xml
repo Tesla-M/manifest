@@ -46,6 +46,7 @@
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tm" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tm" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tm" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tm-n" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs"  remote="tm-n"/>
@@ -54,12 +55,6 @@
   <project path="system/core" name="system_core" remote="tm-n" /> 
   <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
   <!-- End Tesla -->
-  
-  <!-- trial -->
-
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>  
-    
-
   
   <!-- trials -->
   <project path="external/busybox" name="busybox" remote="ea" revision="marshmallow" />   
