@@ -47,6 +47,7 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tm" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tm" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tm-n" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs"  remote="tm-n"/>
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
   <project path="system/bt" name="system_bt" remote="tm-n" />
@@ -57,7 +58,7 @@
   <!-- trial -->
 
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>  
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />  
+    
 
   
   <!-- trials -->
