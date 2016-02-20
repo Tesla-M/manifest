@@ -50,7 +50,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs"  remote="tm-n"/>
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
   <project path="system/bt" name="system_bt" remote="tm-n" />
-  <project path="system/core" name="system_core" remote="tm" /> 
+  <project path="system/core" name="system_core" remote="tm-n" /> 
   <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
   <!-- End Tesla -->
   
