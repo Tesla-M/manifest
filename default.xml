@@ -27,14 +27,14 @@
 
   <!-- Tesla Repos -->
   <project path="manifest" name="manifest" remote="tm-n" />
-  <project path="build" name="android_build" remote="tm" >
+  <project path="build" name="android_build" remote="tm-n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" remote="tm-n"  />
   <project path="bionic" name="bionic" remote="tm-n" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />  
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />  
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="tm-n" />
   <project path="frameworks/base" name="frameworks_base" remote="tm-n" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tm-n" />  
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tm-n"  />  
@@ -54,7 +54,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
   <project path="system/bt" name="system_bt" remote="tm-n" />
   <project path="system/core" name="system_core" remote="tm-n" /> 
-  <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
+  <project path="vendor/tesla" name="vendor_tesla" remote="tm-n" />
   <!-- End Tesla -->
   
   <!-- trials -->
