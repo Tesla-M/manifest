@@ -27,7 +27,7 @@
 
   <!-- Tesla Repos -->
   <project path="manifest" name="manifest" remote="tm-n" />
-  <project path="build" name="android_build" remote="tm" >
+  <project path="build" name="android_build" remote="tm-n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" remote="tm-n"  />
@@ -35,6 +35,7 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />  
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />  
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" />
+  <project path="frameworks/av" name="frameworks_av" remote="tm-n" />  
   <project path="frameworks/base" name="frameworks_base" remote="tm-n" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tm-n" />  
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tm-n"  />  
@@ -300,7 +301,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
