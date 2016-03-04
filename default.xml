@@ -38,7 +38,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="tm-n" />  
   <project path="frameworks/base" name="frameworks_base" remote="tm-n" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tm-n" /> 
-  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="tm" />  
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="tm" />  
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tm-n"  />  
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tm-n" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="tm-n" />
