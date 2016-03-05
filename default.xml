@@ -57,7 +57,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs"  remote="tm-n"/>
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="tm" />
+  <project path="prebuilts/ndk" name="prebuilts_ndk" groups="pdk" remote="tm" />
   <project path="system/bt" name="system_bt" remote="tm-n" />
   <project path="system/core" name="system_core" remote="tm-n" /> 
   <project path="vendor/tesla" name="vendor_tesla" remote="tm-n" />
