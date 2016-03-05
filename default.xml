@@ -40,6 +40,8 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tm-n" /> 
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="tm" />  
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tm-n"  />  
+  <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="tm" /> 
+  <project path="ndk" name="ndk" groups="generic_fs" remote="tm" />  
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tm-n" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="tm-n" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="pdk-fs" remote="tm-n"  />  
@@ -335,7 +337,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
@@ -383,7 +384,6 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
-  <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
