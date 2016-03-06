@@ -56,6 +56,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="tm" />  
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tm-n" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tm" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs"  remote="tm-n"/>
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
   <project path="prebuilts/ndk" name="prebuilts_ndk" groups="pdk" remote="tm" />
@@ -73,7 +74,6 @@
   <project path="external/sqlite" name="external_sqlite" remote="ea" revision="marshmallow" />   
   <project path="packages/apps/Exchange2" name="packages_apps_Exchange2" remote="ea" revision="marshmallow" />   
   <project path="system/extras" name="system_extras" remote="ea" revision="marshmallow" />   
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="ea" revision="marshmallow" />
  
   <!-- CyanogenMod -->
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
