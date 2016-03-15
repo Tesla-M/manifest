@@ -63,6 +63,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tm" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs"  remote="tm-n"/>
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
+  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="tm" />
   <project path="prebuilts/ndk" name="prebuilts_ndk" groups="pdk" remote="tm" />
   <project path="system/bt" name="system_bt" remote="tm-n" />
   <project path="system/core" name="system_core" remote="tm-n" /> 
@@ -77,7 +78,7 @@
   <project path="external/skia" name="external_skia" remote="ea" revision="marshmallow" />
   <project path="external/sqlite" name="external_sqlite" remote="ea" revision="marshmallow" />   
   <project path="packages/apps/Exchange2" name="packages_apps_Exchange2" remote="ea" revision="marshmallow" />   
-  <project path="system/extras" name="system_extras" remote="ea" revision="marshmallow" />   
+  <project path="system/extras" name="system_extras" remote="ea" revision="marshmallow" /> 
  
   <!-- CyanogenMod -->
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
@@ -101,7 +102,7 @@
 
   <!-- DragonTC toolchains -->
   <project path="prebuilts/clang/linux-x86/host/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragontc" />
-  <project path="prebuilts/clang/linux-x86/host/3.9" name="xanaxdroid/dragontc-3.9" groups="pdk,linux" remote="bb" revision="dragontc" />  
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="ExistanceVIP/dragontc-3.9" groups="pdk,linux" remote="bb" revision="dragontc" />  
   <!-- End DragonTC -->
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -460,7 +461,6 @@
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
