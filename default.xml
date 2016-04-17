@@ -34,7 +34,8 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" />
   <project path="frameworks/av" name="frameworks_av" remote="tm" />
   <project path="frameworks/base" name="frameworks_base" remote="tm" />
-  <project path="frameworks/native" name="frameworks_native" remote="tm" revision="keys" />
+  <project path="frameworks/native" name="frameworks_native" remote="tm" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="tm" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="tm" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tm" />
   <project path="hardware/ril" name="hardware_ril" remote="tm" />
@@ -96,7 +97,6 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slim" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="slim" />
   <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="slim" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="slim" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="slim" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" />
   <project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0" />
