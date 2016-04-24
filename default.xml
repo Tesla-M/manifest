@@ -26,7 +26,7 @@
            sync-j="4" />
 
   <!-- TESLA -->
-  <project path="build" name="android_build" remote="tm" >
+  <project path="build" name="Tesla-M/android_build" remote="github" revision="alex" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" remote="tm"  />
@@ -49,7 +49,7 @@
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="tm" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tm" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="tm" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tm" />
+  <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="alex" />
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="tm" />
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tm" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tm" />
@@ -58,9 +58,9 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tm" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tm" />
   <project path="system/bt" name="system_bt" remote="tm" />
-  <project path="system/core" name="system_core" remote="tm" />
+  <project path="system/core" name="Tesla-M/system_core" remote="github" revision="alex" />
   <project path="manifest" name="manifest" remote="tm" />
-  <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
+  <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="alex" />
   <!-- END TESLA -->
  
   <!-- CM -->
