@@ -21,6 +21,12 @@
            fetch="https://github.com/Tesla-M"
            revision="mm6.0-nexus" />  
 
+  <remote  name="vm"
+           fetch="https://github.com/ValidusOS-M"
+           revision="mm6.0" />  
+  
+  
+
   <default revision="refs/tags/android-6.0.1_r30"
            remote="aosp"
            sync-j="4" />
@@ -89,6 +95,10 @@
   <!-- Slim -->
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="tm" />
    <!-- End Slim -->
+   
+   <!-- Validus -->
+   <project path="external/chromium-libpac" name="external_chromium-libpac" groups="pdk-fs" remote="vm" />
+     <!-- End Validus -->
 
    <!-- UBER Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
@@ -136,7 +146,6 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" clone-depth="1" groups="pdk" /> 
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
