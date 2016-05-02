@@ -105,7 +105,7 @@
 
   <!-- DragonTC toolchains -->
   <project path="prebuilts/clang/linux-x86/host/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragontc" />
-  <project path="prebuilts/clang/linux-x86/host/3.9" name="ExistanceVIP/dragontc-3.9" groups="pdk,linux" remote="bb" revision="master" />  
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="xanaxdroid/dragontc-3.9-old" groups="pdk,linux"   remote="bb" revision="dragontc" />
   <!-- End DragonTC -->
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
