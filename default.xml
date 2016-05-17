@@ -21,6 +21,10 @@
            fetch="https://github.com/Tesla-M"
            revision="mm6.0" />           
 
+  <remote  name="vm"
+           fetch="https://github.com/ValidusOs-M"
+           revision="mm6.0" />
+
   <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
@@ -44,7 +48,9 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="tm" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="tm" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tm" />
+  <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="tm" />
   <project path="hardware/ril" name="hardware_ril" remote="tm" />
+  <project path="ndk" name="ndk" groups="generic_fs" remote="tm" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tm" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tm" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="tm" />
@@ -62,6 +68,8 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="tm" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tm" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tm" />
+  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="tm" />
+  <project path="prebuilts/ndk" name="prebuilts_ndk" groups="pdk" remote="tm" />
   <project path="system/bt" name="system_bt" remote="tm" />
   <project path="manifest" name="manifest" remote="tm" />
   <!-- END TESLA -->
@@ -161,6 +169,14 @@
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="slim" />
   <!-- END SLIM -->
 
+  <!-- DragonTC -->
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="dragontc-3.9" groups="pdk,linux" remote="vm" />
+
+  <!-- Validus -->
+  <project path="external/chromium-libpac" name="external_chromium-libpac" groups="pdk-fs" remote="vm" />
+  <project path="external/v8" name="external_v8" groups="pdk" remote="vm" />
+  <!-- End Validus -->
+
   <!--AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -206,7 +222,6 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" clone-depth="1" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
@@ -374,7 +389,6 @@
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
@@ -410,7 +424,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
@@ -435,7 +448,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
-  <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
@@ -504,8 +516,6 @@
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
