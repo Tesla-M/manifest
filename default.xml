@@ -141,6 +141,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="slim" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="slim" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="slim" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="slim" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" groups="apps_nfc,pdk-fs" />
