@@ -76,6 +76,10 @@
   <project path="system/extras" name="system_extras" remote="tm-n" />   
   <project path="vendor/tesla" name="vendor_tesla" remote="tm-n" />
   <!-- End Tesla -->
+
+  <!-- Kernel Adiutor -->
+  <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="vm" />
+  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="vm" />
   
   <!-- trials -->
   <project path="external/busybox" name="busybox" remote="ea" revision="marshmallow" />   
