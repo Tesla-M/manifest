@@ -73,6 +73,10 @@
   <project path="system/bt" name="system_bt" remote="tm" />
   <project path="manifest" name="manifest" remote="tm" />
   <!-- END TESLA -->
+
+  <!-- Kernel Adiutor -->
+  <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="vm" />
+  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="vm" />
  
   <!-- CM -->
   <project path="external/google" name="android_external_google" remote="cm" />
