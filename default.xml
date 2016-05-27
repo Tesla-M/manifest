@@ -70,6 +70,10 @@
   <project path="manifest" name="manifest" remote="tm" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
   <!-- END TESLA -->
+
+  <!-- Kernel Adiutor -->
+  <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="vm" />
+  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="vm" />
  
   <!-- CM -->
   <project path="external/google" name="android_external_google" remote="cm" />
