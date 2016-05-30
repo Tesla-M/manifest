@@ -36,8 +36,8 @@
   <project path="system/core" name="Tesla-M/system_core" remote="github" revision="alex" />
   <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="alex" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="github" revision="alex" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" revision="alex" /> 
   
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" />
   <project path="frameworks/av" name="frameworks_av" remote="tm" />
   <project path="frameworks/base" name="frameworks_base" remote="tm" />
   <project path="frameworks/native" name="frameworks_native" remote="tm" />
