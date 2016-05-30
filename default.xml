@@ -31,6 +31,12 @@
   </project>
   <project path="art" name="art" remote="tm"  />
   <project path="bionic" name="bionic" remote="tm" />
+  
+  <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="alex" />
+  <project path="system/core" name="Tesla-M/system_core" remote="github" revision="alex" />
+  <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="alex" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="github" revision="alex" />
+  
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" />
   <project path="frameworks/av" name="frameworks_av" remote="tm" />
   <project path="frameworks/base" name="frameworks_base" remote="tm" />
@@ -49,7 +55,6 @@
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="tm" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tm" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="tm" />
-  <project path="packages/apps/Settings" name="Tesla-M/packages_apps_Settings" remote="github" revision="alex" />
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="tm" />
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tm" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tm" />
@@ -58,9 +63,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tm" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tm" />
   <project path="system/bt" name="system_bt" remote="tm" />
-  <project path="system/core" name="Tesla-M/system_core" remote="github" revision="alex" />
   <project path="manifest" name="manifest" remote="tm" />
-  <project path="vendor/tesla" name="Tesla-M/vendor_tesla" remote="github" revision="alex" />
   <!-- END TESLA -->
  
   <!-- CM -->
@@ -86,7 +89,6 @@
   <project path="external/connectivity" name="android_external_connectivity" revision="mm6.0" remote="slim" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="slim" />
   <project path="external/exfat" name="android_external_exfat" remote="slim" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
   <project path="external/fuse" name="android_external_fuse" remote="slim" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" />
