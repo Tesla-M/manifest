@@ -71,7 +71,7 @@
   <project path="prebuilts/ndk" name="prebuilts_ndk" groups="pdk" remote="tm" />
   <project path="system/bt" name="system_bt" remote="tm" />
   <project path="system/core" name="system_core" remote="tm" />
-  <project path="manifest" name="manifest" remote="tm" />
+  <project path="manifest" name="manifest" remote="oms" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
   <!-- END TESLA -->
 
