@@ -17,6 +17,10 @@
   <remote name="bb"
           fetch="https://bitbucket.org/" />
 
+  <remote  name="oms"
+           fetch="https://github.com/Tesla-M"
+           revision="oms" />            
+
   <remote  name="tm"
            fetch="https://github.com/Tesla-M"
            revision="mm6.0" />           
@@ -30,15 +34,15 @@
            sync-j="4" />
 
   <!-- TESLA -->
-  <project path="build" name="android_build" remote="tm" >
+  <project path="build" name="android_build" remote="oms" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" remote="tm"  />
   <project path="bionic" name="bionic" remote="tm" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="tm" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="oms" />
   <project path="frameworks/av" name="frameworks_av" remote="tm" />
-  <project path="frameworks/base" name="frameworks_base" remote="tm" />
-  <project path="frameworks/native" name="frameworks_native" remote="tm" />
+  <project path="frameworks/base" name="frameworks_base" remote="oms" />
+  <project path="frameworks/native" name="frameworks_native" remote="oms" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="tm" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="tm" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tm" />
