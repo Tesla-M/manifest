@@ -281,7 +281,6 @@
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
@@ -383,7 +382,7 @@
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+  <project path="external/sqlite" name="UBERMALLOW/external_sqlite" groups="pdk" remote="github" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
