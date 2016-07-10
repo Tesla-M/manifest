@@ -55,7 +55,7 @@
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="tm" /> 
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tm" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="tm-n" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="tm" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="tm-n" />
   <project path="ndk" name="ndk" groups="generic_fs" remote="tm" />  
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tm-n" />  
   <project path="packages/apps/Browser" name="packages_apps_Browser" groups="pdk-fs" remote="tm" />  
