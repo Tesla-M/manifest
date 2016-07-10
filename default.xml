@@ -55,7 +55,7 @@
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="tm" /> 
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tm" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="tm-n" />
-+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="tm" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="tm" />
   <project path="ndk" name="ndk" groups="generic_fs" remote="tm" />  
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tm-n" />  
   <project path="packages/apps/Browser" name="packages_apps_Browser" groups="pdk-fs" remote="tm" />  
@@ -374,7 +374,6 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
