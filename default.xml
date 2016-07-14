@@ -76,6 +76,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="oms" />
   <project path="frameworks/native" name="frameworks_native" remote="oms" />
   <project path="vendor/tesla" name="vendor_tesla" remote="oms" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
 
   <!-- Kernel Adiutor -->
