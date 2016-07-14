@@ -69,13 +69,13 @@
   <project path="system/bt" name="system_bt" remote="tm" />
   <project path="system/core" name="system_core" remote="tm" />
   <project path="manifest" name="manifest" remote="oms" />
-  <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
   <!-- END TESLA -->
 
   <!-- OMS -->
   <project path="external/sepolicy" name="android_external_sepolicy" remote="oms" />
   <project path="frameworks/base" name="frameworks_base" remote="oms" />
   <project path="frameworks/native" name="frameworks_native" remote="oms" />
+  <project path="vendor/tesla" name="vendor_tesla" remote="oms" />
 
 
   <!-- Kernel Adiutor -->
