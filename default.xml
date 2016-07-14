@@ -56,7 +56,6 @@
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="tm" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tm" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="tm" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tm" />
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="tm" />
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tm" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tm" />
@@ -77,6 +76,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="oms" />
   <project path="vendor/tesla" name="vendor_tesla" remote="oms" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="oms" />
 
 
   <!-- Kernel Adiutor -->
