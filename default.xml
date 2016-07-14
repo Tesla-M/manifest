@@ -77,6 +77,8 @@
       <copyfile src="ota_conf" dest="ota_conf" />
   </project>
 
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+
   <!-- Kernel Adiutor -->
   <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="vm" />
   <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="vm" />
