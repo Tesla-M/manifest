@@ -92,8 +92,7 @@
   <project path="external/proguard" name="external_proguard" groups="pdk" remote="benzo" revision="marshmallow" /> 
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="benzo" revision="marshmallow" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="benzo" revision="marshmallow" />   
-  <project path="packages/apps/Exchange2" name="platform/packages/apps/Exchange2" groups="pdk-fs" />  
- 
+  
   <!-- CyanogenMod -->
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
   <!-- End CM -->
