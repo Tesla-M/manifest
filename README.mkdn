@@ -26,7 +26,7 @@ OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode)
 Install some required tools:
 ----------------------------
 ```
-sudo apt-get install git-core gnupg ccache lzop flex bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 libc6-dev lib32ncurses5 lib32z1 lib32bz2-1.0 lib32ncurses5-dev x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 lib32z-dev libgl1-mesa-glx:i386 libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc readline-common libreadline6-dev libreadline6 lib32readline-gplv2-dev libncurses5-dev lib32readline5 lib32readline6 libreadline-dev libreadline6-dev:i386 libreadline6:i386 bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev lib32bz2-dev libsdl1.2-dev libesd0-dev squashfs-tools pngcrush schedtool libwxgtk2.8-dev python
+sudo apt-get install git-core gnupg ccache lzop flex bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 libc6-dev lib32ncurses5 lib32z1 libbz2-1.0:i386 lib32ncurses5-dev x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 lib32z-dev libgl1-mesa-glx:i386 libgl1-mesa-dev g++-multilib mingw32-w64 tofrodos python-markdown libxml2-utils xsltproc readline-common libreadline6-dev libreadline-gplv2-dev:i386 libncurses5-dev libreadline5:i386 lib32readline6  bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev lib32bz2-dev libsdl1.2-dev libesd0-dev squashfs-tools pngcrush schedtool python
 ```
 If you come into any errors:
 ----------------------------
@@ -67,12 +67,6 @@ Initialize Tesla-M build environment:
 -------------------------------------
 
 Open Terminal
-```
-mkdir tesla && cd tesla
-repo init -u git://github.com/Tesla-M/manifest.git -b mm6.0
-repo sync -j4 
-```
-"-j is the number of jobs you want give to the download/sync, depending on your system, 4 should be fine on slower systems(i use -j16 on i7, 12Gb)"
 
 Setting up global:
 ------------------
@@ -81,6 +75,17 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 (Just replace the credentials with your own)
+
+Setting the repo and getting the rom:
+-------------------------------------
+
+```
+mkdir tesla && cd tesla
+repo init -u git://github.com/Tesla-M/manifest.git -b mm6.0
+repo sync -j4 
+```
+"-j is the number of jobs you want give to the download/sync, depending on your system, 4 should be fine on slower systems(i use -j16 on i7, 12Gb)"
+
 
 When that is done & repo is synced, type:
 -----------------------------------------
