@@ -84,7 +84,7 @@
   <project path="system/bt" name="system_bt" remote="tm-n" />
   <project path="system/core" name="system_core" remote="tm-n" /> 
   <project path="system/extras" name="system_extras" remote="tm-n" />   
-  <project path="vendor/tesla" name="vendor_tesla" remote="tm-n" />
+  <project path="vendor/tesla" name="vendor_tesla" remote="oms-n" />
   <!-- End Tesla -->
 
   <!-- Kernel Adiutor -->
