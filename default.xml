@@ -98,10 +98,10 @@
   
   <!-- trials -->
   <project path="external/busybox" name="external_busybox" remote="benzo" revision="marshmallow" />   
-  <project path="external/jpeg" name="external_jpeg" remote="ea" revision="marshmallow" />
-  <project path="external/libpng" name="external_libpng" remote="ea" revision="marshmallow" />
-  <project path="external/proguard" name="external_proguard" remote="ea" revision="marshmallow" />   
-  <project path="external/skia" name="external_skia" remote="ea" revision="marshmallow" />
+  <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="benzo" revision="marshmallow" />
+  <project path="external/libpng" name="external_libpng" groups="pdk" remote="benzo" revision="marshmallow" />
+  <project path="external/proguard" name="external_proguard" groups="pdk" remote="benzo" revision="marshmallow" /> 
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="benzo" revision="marshmallow" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="benzo" revision="marshmallow" />   
   <project path="packages/apps/Exchange2" name="packages_apps_Exchange2" remote="ea" revision="marshmallow" />   
  
