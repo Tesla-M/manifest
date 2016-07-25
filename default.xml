@@ -58,7 +58,6 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="tm" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tm" />
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="tm" />
-  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tm" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tm" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tm" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="tm" />
@@ -71,6 +70,12 @@
   <project path="manifest" name="manifest" remote="tm" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
   <!-- END TESLA -->
+
+  <!-- OTA -->
+  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tm" />
+  <project path="OTA_config" name="OTA_config" remote="tm" revision="master" >
+      <copyfile src="ota_conf" dest="ota_conf" />
+  </project>
 
   <!-- Kernel Adiutor -->
   <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="vm" />
