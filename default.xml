@@ -73,6 +73,7 @@
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tm" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="tm" />  
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tm" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tm-n" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="tm" />  
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tm" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="tm-n" />
