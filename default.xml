@@ -36,7 +36,7 @@
            fetch="https://github.com/ValidusOS-M"
            revision="mm6.0" />  
 
-  <default revision="refs/tags/android-6.0.1_r54"
+  <default revision="refs/tags/android-6.0.1_r62"
            remote="aosp"
            sync-j="4" />
 
