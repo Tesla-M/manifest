@@ -42,7 +42,6 @@
   <project path="frameworks/av" name="frameworks_av" remote="tm" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="tm" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="tm" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tm" />
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="tm" />
   <project path="hardware/ril" name="hardware_ril" remote="tm" />
   <project path="ndk" name="ndk" groups="generic_fs" remote="tm" />
@@ -59,9 +58,6 @@
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="tm" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tm" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tm" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="tm" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tm" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="tm" />
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="tm" />
   <project path="prebuilts/ndk" name="prebuilts_ndk" groups="pdk" remote="tm" />
   <project path="system/bt" name="system_bt" remote="tm" />
@@ -105,6 +101,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" />
   <project path="device/qcom/common" name="device_qcom_common" remote="slim" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="slim" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="slim" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="slim" />
@@ -172,7 +169,10 @@
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slim" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" />
   <project path="packages/services/Mms" name="packages_services_Mms" remote="slim" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="slim" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slim" />
   <project path="system/extras" name="android_system_extras" remote="slim" />
   <project path="system/keymaster" name="android_system_keymaster" remote="slim" />
   <project path="system/media" name="android_system_media" remote="slim" />
