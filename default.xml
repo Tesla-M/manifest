@@ -71,6 +71,9 @@
   <project path="vendor/tesla" name="vendor_tesla" remote="tm" />
   <!-- END TESLA -->
 
+  <!-- SNAP -->
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="vm" />
+
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tm" />
   <project path="OTA_config" name="OTA_config" remote="tm" revision="master" >
