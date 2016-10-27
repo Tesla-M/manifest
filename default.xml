@@ -124,7 +124,6 @@
   <!-- End UBER -->
 
   <!-- DragonTC toolchains -->
-  <project path="prebuilts/clang/linux-x86/host/3.6" name="dragontc-3.6" remote="vm" revision="master" />
   <project path="prebuilts/clang/linux-x86/host/3.9" name="dragontc-3.9" remote="vm" revision="master" />
   <!-- End DragonTC -->
 
