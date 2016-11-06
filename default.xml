@@ -123,7 +123,7 @@
   <!-- End UBER -->
 
   <!-- DragonTC toolchains -->
-  <project path="prebuilts/clang/linux-x86/host/3.9" name="dragontc-3.9" remote="vm" revision="master" />
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="Tesla-M/dragontc-3.9" remote="github" revision="master" />
   <!-- End DragonTC -->
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
